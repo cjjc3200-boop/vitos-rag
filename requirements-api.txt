@@ -1,0 +1,7 @@
+# HTTP API dependencies (used by the Dockerfile).
+# The base requirements.txt is also required.
+fastapi>=0.110
+uvicorn[standard]>=0.29
+
+# Optional, only for LLM mode (VITOS_LLM=true):
+# langchain-openai>=0.2
